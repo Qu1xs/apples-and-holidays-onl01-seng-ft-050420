@@ -90,7 +90,7 @@ holiday_hash.map do |season, holiday|
   puts "#{s_cap}:"
   holiday.each do |supplies|
     holiday.split("_").map do |caps|
-      caps[0].capitalize.join
+      caps[0].capitalize.join(" ")
       puts "#{holiday}: #{supplies}"
     end
   end
